@@ -1,0 +1,15 @@
+# build output
+/bin
+*.exe
+*.out
+
+# lokal/rahasia
+.env
+session.db
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+
+# macOS
+.DS_Store
