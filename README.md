@@ -3,7 +3,7 @@
 WhatsappApi_GO adalah HTTP API ringan di atas whatsmeow
  (client WhatsApp Web Multi-Device untuk Go). Cocok buat kirim OTP, notifikasi transaksi, auto-reply sederhana, sampai integrasi CRM — tanpa Docker, tanpa layanan pihak ketiga.
 
-⚠️ Catatan: ini memakai protokol WhatsApp Web (bukan WhatsApp Cloud API resmi). Gunakan pada akun Anda sendiri dan patuhi ketentuan layanan WhatsApp.
+Catatan: ini memakai protokol WhatsApp Web (bukan WhatsApp Cloud API resmi). Gunakan pada akun Anda sendiri dan patuhi ketentuan layanan WhatsApp.
 
 # Fitur Utama
 
@@ -67,7 +67,7 @@ WEBHOOK_SECRET=whsec_123abc
 curl -X POST http://localhost:8080/send-text \
   -H 'X-API-Key: supersecret' \
   -H 'Content-Type: application/json' \
-  -d '{"to":"62812XXXXXXX","text":"Halo dari API 🎯"}'
+  -d '{"to":"62812XXXXXXX","text":"Halo dari API"}'
 
 # Kirim OTP (dengan template)
 curl -X POST http://localhost:8080/send-otp \
